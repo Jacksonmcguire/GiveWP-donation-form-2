@@ -1,0 +1,51 @@
+
+
+// Colors
+
+$green: #69B868;
+$white: #FFFFFF;
+$beige: #DFDCCC;
+$black: #333333;
+
+.donation-form {
+  background-color: $green;
+  width: 50vw;
+  // height: 55vh;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    color: $white;
+  }
+}
+
+.step-one, .step-two {
+  color: $white;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 50%;
+  align-self: center;
+  input[type="email"], input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid $white;
+    margin: 10px;
+    font-size: 1.4em;
+  }
+}
+
+
+button {
+  color: $white;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 10px; 
+  margin: 10px 0;
+}
